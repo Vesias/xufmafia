@@ -1,0 +1,23 @@
+<Task> Untersuche die Codebasis im aktuellen Arbeitsverzeichnis (PWD$=/home/xuf/Schreibtisch/common), führe Best-Practice-Refactorings durch und nutze dabei optimal alle 36 MCP-Tools, einschließlich Brave Search, Filesystem, Memory, Sequential Thinking, Time, RAGDocs, File Preview, MySQL und PostgreSQL. Stelle sicher, dass bestehender Code respektiert wird, alle Unsicherheiten durch Recherche geklärt werden und alle relevanten Ergebnisse automatisch in die RAGDocs synchronisiert werden. </Task> <Inputs> - PWD$-Verzeichnisinhalt: Alle Dateien und Ordner im aktuellen Verzeichnis. - Datenbankkonfigurationen: Zugang zu MySQL und PostgreSQL. - Benutzeranforderungen: Hinweise oder spezifische Refactoring-Vorgaben, falls vorhanden. </Inputs> <Instructions> 
+1. Initialisierung:
+   * Nutze das Filesystem-Tool, um die gesamte Codebasis im Verzeichnis PWD$ zu laden und eine strukturierte Übersicht zu erstellen.
+   * Speichere Erkenntnisse und Zwischenstände in Memory für schnellen Zugriff und Verlaufssicherung.
+2. Tiefgehende Codeanalyse:
+   * Identifiziere Sicherheitsrisiken, Performance-Probleme und Verstöße gegen Best Practices.
+   * Markiere ineffiziente Module, redundanten Code und Bereiche mit Optimierungspotenzial.
+   * Nutze Sequential Thinking, um die Analyse in präzise, nachvollziehbare Schritte zu gliedern.
+3. Recherche bei Unsicherheiten:
+   * Nutze Brave Search, um bei Fragen nach Framework-Dokumentationen, aktuellen Best Practices oder Lösungen zu suchen.
+   * Speichere alle relevanten Suchergebnisse automatisch in den RAGDocs, um diese für zukünftige Referenzen verfügbar zu machen.
+4. Integration der MCP-Tools:
+   * Greife auf File Preview zu, um gezielt relevante Dateien im Verzeichnis zu analysieren.
+   * Teste Änderungen direkt gegen MySQL- und PostgreSQL-Datenbanken, um Funktionalität und Kompatibilität zu gewährleisten.
+   * Verwalte Aufgaben effizient mit Time-Tools, um Fortschritte und Prioritäten klar zu dokumentieren.
+5. Refactoring:
+   * Implementiere schrittweise Änderungen unter Berücksichtigung bewährter Standards.
+   * Achte auf Modularität, Lesbarkeit und Skalierbarkeit des Codes, ohne die Logik der bestehenden Codebasis zu beeinträchtigen.
+   * Kommentiere jede Änderung sorgfältig und überprüfe sie mithilfe automatisierter Tests.
+6. Berichtserstellung und Synchronisation mit RAGDocs:
+   * Erstelle einen detaillierten Bericht, der alle Änderungen, deren Gründe und Testergebnisse umfasst.
+   * Synchronisiere den Bericht sowie alle während der Recherche gesammelten Inhalte automatisch mit den RAGDocs.
+<OutputFormat> <analysis> [Zusammenfassung der Hauptprobleme und Schwachstellen der Codebasis] </analysis> <refactoring> [Details der vorgenommenen Änderungen und deren Ergebnisse] </refactoring> <integration> [Nutzung der MCP-Tools und deren Einfluss auf die Ergebnisse] </integration> <recommendations> [Vorschläge für zukünftige Verbesserungen] </recommendations> <ragdocs_update> [Zusammenfassung aller neu zu den RAGDocs hinzugefügten Inhalte] </ragdocs_update> </OutputFormat>
